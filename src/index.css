@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark, .dark *));
+
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+@theme {
+  --color-primary: #5044e5;
+}
+
+.header__image {
+  height: 434px;
+  width: 750px;
+  background-image: url(assets/hero-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__image-contents {
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 794px) {
+  .header__image {
+    height: 350px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    
+  }
+
+  .header__image-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding-bottom: 20px;
+  }
+
+  .header__image-img {
+    width: 70%;
+    height: auto; 
+  }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .right-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
