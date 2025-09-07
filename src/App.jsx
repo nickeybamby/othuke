@@ -32,8 +32,8 @@ const App = () => {
         <ScrollToTop />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home theme={theme} />} />
+          <Route path="/about" element={<About theme={theme} />} />
         </Routes>
 
         <Footer />
