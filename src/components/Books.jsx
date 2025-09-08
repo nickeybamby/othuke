@@ -37,7 +37,7 @@ const books = [
   },
   {
     id: 5,
-    title: "A SONG OF LEGEN...",
+    title: "A SONG OF...",
     quote: `"I was told books don’t sell here. I knew it wasn’t true."`,
     author: "Othuke Ominiabohs",
     cover: songs,
@@ -55,7 +55,7 @@ const books = [
 
 const Books = () => {
   return (
-    <section className="py-16 bg-white dark:bg-[#0B0B2E] text-white mt-20">
+    <section className="py-16 bg-white dark:bg-[#0B0B2E] text-white my-20">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Title */}
         <h2 className="text-center text-base sm:text-2xl bg-purple-200 px-5 py-1 rounded-full dark:bg-gray-800 text-gray-800 dark:text-gray-200 transition duration-300 font-medium w-fit m-auto my-12">
@@ -63,7 +63,7 @@ const Books = () => {
         </h2>
 
         {/* Books Grid */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 items-center">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 items-center pb-10">
           {books.map((book) => (
             <div
               key={book.id}
