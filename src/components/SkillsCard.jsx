@@ -28,8 +28,8 @@ const SkillsCard = ({ theme, skill, index }) => {
       />
 
       {/* Card Content */}
-      <div className="relative z-10 flex items-center gap-8 p-5 hover:p-4 hover:m-0.5 transition-all rounded-[10px] bg-white dark:bg-gray-800">
-        <h3 className="text-sm sm:text-base font-bold text-gray-900 dark:text-gray-100">
+      <div className="card_content relative z-10  flex items-center gap-8 p-5 hover:p-4 hover:m-0.5 transition-all rounded-[10px] bg-white dark:bg-gray-800">
+        <h3 className="text-sm sm:text-base font-bold text-gray-900 dark:text-gray-100 ">
           {skill.title}
         </h3>
       </div>
