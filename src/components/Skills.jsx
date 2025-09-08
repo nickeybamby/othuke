@@ -20,7 +20,7 @@ const Skills = ({ theme }) => {
     {
       iconLight: skillLight,
       iconDark: skillDark,
-      title: "Public Speaking & Author Engagement",
+      title: "Public Speaking & Engagement",
     },
     {
       iconLight: skillLight,
@@ -35,15 +35,15 @@ const Skills = ({ theme }) => {
     {
       iconLight: skillLight,
       iconDark: skillDark,
-      title: "Distribution & Supply Chain Management",
+      title: "Supply Chain Management",
     },
   ];
 
   return (
-    <div className="relative flex flex-col items-center gap-7 px-4 sm:px-8 lg:px-16 xl:px-32 pt-30 text-gray-700 dark:text-gray-200">
+    <div className="relative flex flex-col items-center gap-5 px-4 sm:px-8 lg:px-16 xl:px-32 pt-30 text-gray-700 dark:text-gray-200">
       <Title title="Skills & Expertise" desc="From strategy to Execution" />
 
-      <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-col items-center md:grid md:grid-cols-2 lg:grid-cols-3">
         {skillsData.map((skill, index) => (
           <SkillsCard key={index} skill={skill} index={index} theme={theme} />
         ))}
