@@ -23,7 +23,7 @@ const Instagram = (props) => (
 const Footer = () => {
   return (
     <footer className="border-t  border-neutral-200 dark:border-neutral-800">
-      <div className="py-8 px-8 flex flex-col md:flex-row items-center gap-4 justify-between">
+      <div className="py-8 px-35 flex flex-col md:flex-row items-center gap-4 justify-between">
         <div className="flex items-center gap-4">
           <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X" className="hover:opacity-80">
             <TwitterX />

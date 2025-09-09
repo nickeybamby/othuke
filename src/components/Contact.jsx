@@ -15,7 +15,8 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-2xl md:text-3xl font-semibold">
-                Let’s build something meaningful
+                Got a story to tell? 
+                <br />Let’s make it happen!
               </h2>
               <p className="opacity-80 mt-3">
                 For collaborations, manuscripts, speaking or consulting, send a
@@ -45,20 +46,20 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <form className="rounded-3xl border border-neutral-200 dark:border-neutral-800 p-6 shadow-sm grid gap-4">
+            <form className="rounded-3xl border border-neutral-200 dark:bg-[#0b0b2b] p-6 shadow-sm grid gap-4">
               <input
-                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 
+                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#0d0d29] 
                      placeholder-neutral-500 dark:placeholder-neutral-400"
                 placeholder="Your name"
               />
               <input
-                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 
+                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#0d0d29] 
                      placeholder-neutral-500 dark:placeholder-neutral-400"
                 type="email"
                 placeholder="Email"
               />
               <textarea
-                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 min-h-32 
+                className="px-4 py-3 rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#0d0d29] min-h-32 
                      placeholder-neutral-500 dark:placeholder-neutral-400 resize-none"
                 placeholder="Message"
               />
