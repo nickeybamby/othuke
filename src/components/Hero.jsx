@@ -7,7 +7,7 @@ const Hero = ({ theme }) => {
   return (
     <div
       id="hero"
-      className="relative flex flex-col items-center gap-6 py-20 px-4 sm:px-8 lg:px-16 xl:px-32 text-center w-full overflow-hidden text-gray-700 dark:text-gray-200"
+      className=" flex flex-col items-center gap-6 py-20 px-4 sm:px-8 lg:px-16 xl:px-32 text-center w-full overflow-hidden text-gray-700 dark:text-gray-200"
     >
       {/* Hero content */}
       <h1 className="flex flex-col text-4xl xl:text-[84px] sm:text-5xl md:text-6xl font-semibold xl:leading-[95px] max-w-5xl gap-3">
@@ -22,6 +22,7 @@ const Hero = ({ theme }) => {
 
       {/* Image + right content */}
       <section className="relative">
+        
         <div className="header__image">
           <div className="header__image-contents flex flex-col sm:flex-row items-center gap-6">
             {/* Left: Image */}
@@ -57,13 +58,6 @@ const Hero = ({ theme }) => {
             </div>
           </div>
         </div>
-
-        {/* Background image (theme controlled) */}
-        <img
-          src={theme === "dark" ? bgImage1 : bgImage2}
-          alt="decorative background"
-          className="absolute -top-[100px] -right-[90px] w-[400px] sm:w-[400px] opacity-70 z-0 transition-all duration-500"
-        />
       </section>
     </div>
   );

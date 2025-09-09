@@ -11,7 +11,7 @@ const Contact = () => {
           Contact
         </h2>
 
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-2xl md:text-3xl font-semibold">
@@ -28,7 +28,7 @@ const Contact = () => {
                     className="underline underline-offset-4"
                     href="hello@othuke.com"
                   >
-                    hello@example.com
+                    hello@othuke.com
                   </a>
                 </p>
                 <p>

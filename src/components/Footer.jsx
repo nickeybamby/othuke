@@ -22,7 +22,7 @@ const Instagram = (props) => (
 
 const Footer = () => {
   return (
-    <footer className="border-t border-neutral-200 dark:border-neutral-800">
+    <footer className="border-t  border-neutral-200 dark:border-neutral-800">
       <div className="py-8 px-8 flex flex-col md:flex-row items-center gap-4 justify-between">
         <div className="flex items-center gap-4">
           <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X" className="hover:opacity-80">
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </div>
         
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm sm:text-center text-neutral-600 dark:text-neutral-400">
           Copyright © 2020 - {new Date().getFullYear()}. Othuke | All rights reserved<a href="#home" className="underline decoration-dotted">
             
           </a>
