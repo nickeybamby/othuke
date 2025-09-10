@@ -39,6 +39,32 @@ const About = ({ theme }) => {
                 <p className="mb-5 text-gray-700 dark:text-white/70">
                   Today, Masobe is more than a company—it is a community. Every book we publish carries a piece of my own journey: the quiet library visits with my father, the thrill of discovering new worlds on every page, and the conviction that stories can transform lives. This mission is not just professional—it is profoundly personal. And it continues, stronger than ever.
                 </p>
+
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-8">
+                  <div className="flex items-center gap-4">
+                    <img
+                      src={aboutImage}
+                      alt="Othuke Ominiabohs"
+                      className="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <a
+                        href="#"
+                        target=""
+                      >
+                        <h4 className="font-semibold text-[31d2b3a]">
+                          {" "}
+                          Othuke Ominiabohs
+                        </h4>
+                        <span className="text-sm text-gray-500">
+                          Author & Founder, Masobe Books.
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* <img src={sighatureImg} alt='signature' className="w-32 object-contain"/> */}
+                </div>
               </div>
             </div>
           </div>
